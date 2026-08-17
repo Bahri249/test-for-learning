@@ -1,0 +1,21 @@
+git clone https://github.com/Bahri249/test-for-learning.git
+cd test-for-learning
+git init
+echo "Git workflow practice" > git-workflow-practice.txt
+git add git-workflow-practice.txt
+git commit -m "Add Git workflow practice file"
+git branch git-workflow
+git checkout git-workflow
+git status
+git log --oneline
+echo "This change will be reverted" >> git-workflow-practice.txt
+git add git-workflow-practice.txt
+git commit -m "Add change for revert practice"
+git revert HEAD
+git branch
+* git-workflow
+  main
+git checkout main
+git merge git-workflow
+git push origin main
+git push origin git-workflow
