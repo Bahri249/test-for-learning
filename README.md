@@ -49,3 +49,5 @@ This project is licensed under the Apache License 2.0.
 Bug fix: corrected a documentation typo.
 
 Typo fix: Simple Interest Calculator documentation updated.
+
+Bug fix change for pull request and revert practice.
